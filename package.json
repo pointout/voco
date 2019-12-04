@@ -78,9 +78,9 @@
             "Built-in headphone jack (0,0)",
             "Built-in HDMI (0,1)",
             "Attached device (1,0)",
-	    "Respeaker array (2,0)
+	    "Respeaker array (2,0)"
           ],
-          "description": "By defeault audio is sent out over the built-in headphone jack. If you want to send it out via a ReSpeaker Hat you will have to install the drivers manually."
+          "description": "By defeault audio is sent out over the built-in headphone jack. If you want to send it out via a ReSpeaker Hat or Respeaker Array you will have to install the drivers manually."
         },
         "Authorization token": {
           "type": "string",
