@@ -316,6 +316,10 @@ class VocoAdapter(Adapter):
             print("Setting audio input to USB/Hat")
             self.capture_card_id = 1
             self.capture_device_id = 0
+        if self.microphone == "Respeaker array (2,0)":
+            print("Setting audio input to Respeaker Array")
+            self.capture_card_id = 2
+            self.capture_device_id = 0
 
         # Fix the audio output. The default on the WebThings image is HDMI.
         if self.speaker == "Built-in headphone jack (0,0)":
